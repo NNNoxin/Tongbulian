@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360">
+  <rect width="420" height="360" rx="16" fill="#f6f5f2"/>
+  <text x="20" y="36" font-family="PingFang SC, sans-serif" font-size="16" font-weight="600">环详情</text>
+  <rect x="16" y="52" width="388" height="36" rx="8" fill="#fff"/>
+  <text x="28" y="75" font-family="PingFang SC, sans-serif" font-size="13">5  系统代理</text>
+  <text x="360" y="75" font-family="PingFang SC, sans-serif" font-size="12" fill="#b42318">断</text>
+  <text x="20" y="116" font-family="PingFang SC, sans-serif" font-size="13" fill="#222">有网络服务的系统代理指向本机，但没有进程在听。</text>
+  <rect x="16" y="132" width="388" height="44" rx="8" fill="#fff"/>
+  <text x="28" y="158" font-family="PingFang SC, sans-serif" font-size="12" fill="#444">Wi-Fi：HTTPS 127.0.0.1:7890 已开启，没有进程监听</text>
+  <rect x="16" y="184" width="388" height="44" rx="8" fill="#fff"/>
+  <text x="28" y="210" font-family="PingFang SC, sans-serif" font-size="12" fill="#444">Ethernet（已停用）：HTTP / HTTPS / SOCKS 均关闭</text>
+  <text x="20" y="260" font-family="PingFang SC, sans-serif" font-size="12" fill="#8a867e">每一环都有判定和证据，不是一个总的通过或失败。</text>
+</svg>

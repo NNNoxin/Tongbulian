@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewBox="0 0 420 560">
+  <rect width="420" height="560" rx="16" fill="#f6f5f2"/>
+  <text x="20" y="36" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="16" font-weight="600" fill="#1c1c1c">通不连</text>
+  <rect x="300" y="20" width="100" height="22" rx="11" fill="#e6e4de"/>
+  <text x="350" y="35" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="11" fill="#333">残留异常</text>
+  <text x="20" y="58" font-family="PingFang SC, sans-serif" font-size="11" fill="#6b6862">局部检测 · 只读。改系统必须先预览。</text>
+  <rect x="16" y="74" width="388" height="78" rx="10" fill="#fff"/>
+  <text x="28" y="96" font-family="PingFang SC, sans-serif" font-size="12" fill="#333">系统代理还指着 127.0.0.1:7890，没有进程在听。</text>
+  <text x="28" y="116" font-family="PingFang SC, sans-serif" font-size="11" fill="#666">WorkBuddy 要大陆直连。Claude / ChatGPT 常要 TUN / 全局。</text>
+  <text x="28" y="136" font-family="PingFang SC, sans-serif" font-size="11" fill="#8a867e">通不连不会自动切换模式。</text>
+  <g font-family="PingFang SC, sans-serif" font-size="13">
+    <text x="28" y="186" fill="#222">1  物理链路</text><text x="360" y="186" fill="#1c7a4a">通</text>
+    <text x="28" y="214" fill="#222">2  地址与 DHCP</text><text x="360" y="214" fill="#1c7a4a">通</text>
+    <text x="28" y="242" fill="#222">3  默认路由</text><text x="360" y="242" fill="#1c7a4a">通</text>
+    <text x="28" y="270" fill="#222">4  DNS</text><text x="360" y="270" fill="#1c7a4a">通</text>
+    <text x="28" y="298" fill="#222">5  系统代理</text><text x="360" y="298" fill="#b42318">断</text>
+    <text x="28" y="326" fill="#222">6  VPN 与隧道</text><text x="360" y="326" fill="#1c7a4a">通</text>
+    <text x="28" y="354" fill="#222">7  本地连通</text><text x="360" y="354" fill="#b42318">断</text>
+    <text x="28" y="382" fill="#222">8  目标连通</text><text x="360" y="382" fill="#8a867e">未知</text>
+  </g>
+  <rect x="16" y="470" width="186" height="28" rx="8" fill="#fff" stroke="#ddd"/>
+  <text x="109" y="488" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12" fill="#222">局部检测</text>
+  <rect x="210" y="470" width="194" height="28" rx="8" fill="#e7e4dc"/>
+  <text x="307" y="488" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12" fill="#666">全局检测</text>
+  <rect x="16" y="510" width="388" height="32" rx="8" fill="#1f4b99"/>
+  <text x="210" y="531" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="13" fill="#fff">重新检测</text>
+</svg>

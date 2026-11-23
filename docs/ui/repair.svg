@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420">
+  <rect width="420" height="420" rx="16" fill="#f6f5f2"/>
+  <text x="20" y="36" font-family="PingFang SC, sans-serif" font-size="16" font-weight="600">清残留预览</text>
+  <text x="20" y="60" font-family="PingFang SC, sans-serif" font-size="11" fill="#666">没有诊断之前，下面的按钮是关的。</text>
+  <rect x="16" y="76" width="388" height="86" rx="10" fill="#fff"/>
+  <circle cx="36" cy="100" r="7" fill="#1c7a4a"/>
+  <text x="52" y="104" font-family="PingFang SC, sans-serif" font-size="12">关闭 Wi-Fi 上残留的本机代理</text>
+  <text x="52" y="124" font-family="PingFang SC, sans-serif" font-size="11" fill="#555">HTTPS 127.0.0.1:7890  →  HTTPS 关闭</text>
+  <text x="52" y="144" font-family="ui-monospace, monospace" font-size="10" fill="#888">networksetup -setsecurewebproxystate Wi-Fi off</text>
+  <rect x="16" y="174" width="388" height="70" rx="10" fill="#fff"/>
+  <circle cx="36" cy="198" r="7" fill="#fff" stroke="#a86408"/>
+  <text x="52" y="202" font-family="PingFang SC, sans-serif" font-size="12">Clash global → rule · 高风险</text>
+  <text x="52" y="222" font-family="PingFang SC, sans-serif" font-size="11" fill="#555">默认不勾，还要第二次确认</text>
+  <rect x="28" y="262" width="14" height="14" rx="2" fill="#fff" stroke="#999"/>
+  <text x="50" y="274" font-family="PingFang SC, sans-serif" font-size="12">我看过预览，确认执行</text>
+  <rect x="16" y="300" width="388" height="32" rx="8" fill="#c8c6c0"/>
+  <text x="210" y="321" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="13" fill="#fff">一键清残留</text>
+  <text x="20" y="360" font-family="PingFang SC, sans-serif" font-size="12" fill="#555">执行后可以「撤回本次修复」。禁止刷新路由、关防火墙、改证书。</text>
+</svg>
