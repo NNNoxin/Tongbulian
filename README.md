@@ -216,7 +216,7 @@ clean, proxy, leftover, upstream, foreign, wifi-off, tun, rule
 
 也可以把采集结果存成 JSON，用 `--fixture 文件` 再跑一遍。字段缺了就按空处理。在 Linux 上不带 `--demo` 或 `--fixture` 的 `--dry-run` 会说明本机没有 macOS 采集器，然后退出，仍然什么都不改。
 
-`./scripts/build-app.sh` 在 macOS 上生成 `dist/通不连.app`，并用本机临时签名。在 Linux 上它会直接退出并说明打不出 `.app`。这个包没有经过 Apple 公证。
+`./scripts/build-app.sh` 在 macOS 上生成 `dist/通不连.app`，并用本机临时签名。图标源文件是 `packaging/AppIcon-1024.png`（海军蓝底、三段薄荷绿实心节点、最后一环珊瑚空心圈）。脚本用 `sips` 和 `iconutil` 做成 `AppIcon.icns`，放进 `Contents/Resources`，`Info.plist` 的 `CFBundleIconFile` 指向它，然后再签名。Finder、启动台和「应用程序」里因此显示这枚图标，而不是空白方块。在 Linux 上脚本会直接退出并说明打不出 `.app`，PNG 仍留在仓库里。这个包没有经过 Apple 公证。
 
 第一次打开：
 
@@ -298,4 +298,4 @@ Tongbulian is a macOS menu-bar utility that diagnoses VPN, system-proxy, and lef
 
 Repairs are previewed, unchecked until you confirm, and limited to an allowlist. The app will not disable the firewall, change certificate trust, edit `/etc/hosts` or the Keychain, flush the routing table, delete VPN profiles, or point you at a new proxy. A snapshot can roll back the last repair. A 24-hour history stays on the Mac.
 
-Build the core anywhere Swift runs (`swift test`, `swift run tongbulian diagnose --demo leftover`). Build the menu-bar app on macOS 13+ with Xcode: `./scripts/build-app.sh`.
+Build the core anywhere Swift runs (`swift test`, `swift run tongbulian diagnose --demo leftover`). Build the menu-bar app on macOS 13+ with Xcode: `./scripts/build-app.sh`. That script turns `packaging/AppIcon-1024.png` into `AppIcon.icns` and points `CFBundleIconFile` at it before the ad-hoc signature.

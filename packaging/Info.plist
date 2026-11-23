@@ -8,6 +8,8 @@
 	<string>通不连</string>
 	<key>CFBundleExecutable</key>
 	<string>Tongbulian</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>app.tongbulian.menu</string>
 	<key>CFBundleInfoDictionaryVersion</key>
